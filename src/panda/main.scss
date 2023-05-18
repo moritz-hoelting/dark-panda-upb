@@ -1,0 +1,302 @@
+@import "../variables.scss";
+
+@-moz-document domain("panda.uni-paderborn.de"), domain("panda.upb.de") {
+
+    // Body
+    body {
+        background-color: $background-main;
+        color: $text-blue;
+    }
+    body#page-my-index {
+        background-color: $background-main !important;
+    }
+
+    // General
+    .sideblocks .block,
+    #page-my-index #region-main > div {
+        background-color: $background-card;
+    }
+    .bg-white {
+        background-color: $background-card !important;
+    }
+    .calendar_event_course {
+        background-color: rgba(darken(#ffd3bd, 20%), 0.3);
+    }
+    .resourcelinkdetails {
+        color: $text-secondary;
+    }
+    .forumpost.unread .row.header, .path-course-view .unread, span.unread {
+        background-color: #fffddd30;
+    }
+
+    // Footer
+    #page-footer {
+        background-color: #0a465a !important;
+
+        .footer-image {
+            filter: brightness(40%);
+        }
+    }
+
+    // Navigation Bar
+    nav.navbar {
+        .nav-item {
+            .nav-link {
+                color: rgba(255, 255, 255, 0.6);
+
+                &:hover,
+                &:active {
+                    color: rgba(255, 255, 255, 0.9);
+                }
+            }
+        }
+        &.navbar-light .navbar-brand {
+            color: $accent-blue;
+        }
+        #blue {
+            color: $text-secondary !important;
+            background-color: $accent-blue !important;
+        }
+    }
+
+    div#page-navbar {
+        li.breadcrumb-item a {
+            color: $accent-blue;
+        }
+    }
+
+    // Navigation Drawer
+    #nav-drawer {
+        background-color: $background-main;
+
+        .list-group-item {
+            color: $text-primary;
+            background-color: $background-card;
+
+            &:hover,
+            &.active {
+                background-color: $background-card-hover;
+            }
+        }
+    }
+
+    // Pagination
+    .pagination {
+        .page-link,
+        .page-link.disabled {
+            background-color: $background-secondary;
+            border-color: darken($background-secondary, 10%);
+
+            &:hover {
+                color: $color-secondary;
+                background-color: $background-card-hover;
+            }
+        }
+    }
+
+    // Links
+    a {
+        color: $accent-blue;
+
+        &:hover {
+            color: darken($accent-blue, 10%);
+        }
+
+        &#message-user-button {
+            color: $text-secondary;
+        }
+    }
+
+    // Cards
+    .card {
+        background-color: $background-card;
+    }
+    #page-content {
+        .generalbox {
+            a {
+                color: $accent-blue;
+
+                &:hover {
+                    color: darken($accent-blue, 10%);
+                }
+            }
+        }
+    }
+
+    // Regions
+    #region-main {
+        background-color: $background-card;
+    }
+
+    // Buttons
+    .btn-secondary {
+        color: $color-secondary;
+        background-color: $background-secondary;
+        border-color: darken($background-secondary, 10%);
+
+        &:hover {
+            color: $color-secondary;
+            background-color: $background-card-hover;
+        }
+    }
+
+    // Dropdowns
+    .dropdown-menu {
+        color: $text-primary;
+        background-color: $background-card;
+
+        a {
+            color: $text-primary;
+        }
+
+        .icon {
+            color: $text-blue;
+        }
+    }
+
+    // Popover
+    .popover-region-container {
+        background-color: $background-card;
+
+        .popover-region-footer-container {
+            background-color: $background-card;
+        }
+    }
+
+    // Message App
+    .message-app {
+        background-color: $background-card;
+
+        a.list-group-item {
+            background-color: lighten($background-card, 5%);
+        }
+    }
+
+    // Preferences
+    .preferences-container {
+        .preference-table {
+            color: $text-primary;
+
+            tr {
+                th,
+                td {
+                    &:nth-child(even) {
+                        background-color: $background-card-hover;
+                    }
+                }
+            }
+        }
+    }
+
+    // Paged Content
+    .paged-content-page-container {
+        .list-group-item {
+            background-color: $background-secondary;
+
+            .list-group-item-action {
+                color: $text-primary;
+
+                &:hover {
+                    background-color: rgba(255, 255, 255, 0.6);
+                }
+            }
+        }
+    }
+
+    // Modals
+    .modal-content {
+        background-color: $background-card;
+    }
+    .moodle-dialogue-base .moodle-dialogue-wrap {
+        background-color: $background-card;
+
+        .moodle-dialogue-hd.yui3-widget-hd {
+            color: $text-primary;
+        }
+    }
+
+    // Tables
+    .table {
+        color: $text-secondary;
+    }
+    .generaltable {
+        color: $text-primary;
+
+        tbody tr:hover {
+            color: $text-secondary;
+        }
+    }
+
+    // Questions
+    .que {
+        &:not(.ddimageortext) {
+            img {
+                background-color: #ffffff70;
+            }
+
+            .content .formulation,
+            .info {
+                color: $text-primary;
+                background-color: $background-secondary;
+            }
+
+            &.ddwtos {
+                .draghome {
+                    border-color: $color-secondary;
+                }
+                .group1 {
+                    background-color: $background-secondary;
+                }
+            }
+        }
+
+        &.ddimageortext {
+            color: black;
+
+            .content .formulation,
+            .info {
+                color: $text-primary;
+                background-color: $background-secondary;
+
+                .ddarea {
+                    color: initial;
+                }
+            }
+        }
+    }
+
+    // Startpage
+    .startpage .upbbox {
+        background-color: $background-card;
+
+        a {
+            background-color: rgba(255, 255, 255, 0.2);
+        }
+    }
+
+    // Course Content
+    .course-content {
+        ul li.section.main {
+            border-color: rgba($text-secondary, 30%);
+        }
+    }
+    @media (min-width: 576px) {
+        .region_main_settings_menu_proxy {
+            background-color: $background-card;
+        }
+    }
+
+    // Submissions
+    .path-mod-assign {
+        td, div {
+            &.submissionnotgraded {
+                color: $text-primary;
+                background-color: $background-card;
+            }
+
+            &.earlysubmission, &.submissionstatussubmitted {
+                background-color: #cfefcfA0;
+            }
+        }
+    } 
+}

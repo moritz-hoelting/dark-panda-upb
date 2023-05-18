@@ -11,6 +11,6 @@ Install with [Stylus](https://github.com/openstyles/stylus) on [userstyles.world
 Issues can be reported [here](https://github.com/moritz-hoelting/dark-panda-upb/issues). Please be specific and help me find a way to solve it. You can also fix it yourself and create a [pull request](https://github.com/moritz-hoelting/dark-panda-upb/pulls).
 
 ## Contributing
-Please only edit the .scss file, not the .css!
+Please only edit .scss files, not .css!
 That file is only for installation.
 Compile scss before pushing.
