@@ -4,6 +4,7 @@ A darkmode for the Panda website of the University of Paderborn.
 
 ![Dashboard](https://github.com/moritz-hoelting/dark-panda-upb/blob/main/preview/dashboard.jpg?raw=true)
 ![Login](https://github.com/moritz-hoelting/dark-panda-upb/blob/main/preview/login.jpg?raw=true)
+![Paul Welcome](https://github.com/moritz-hoelting/dark-panda-upb/blob/main/preview/paul/welcome.jpg?raw=true)
 
 ## Installation
 Install with [Stylus](https://github.com/openstyles/stylus) on [userstyles.world](https://userstyles.world/style/9867/upb-dark-panda).

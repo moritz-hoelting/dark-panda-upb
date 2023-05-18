@@ -1,8 +1,8 @@
 /* ==UserStyle==
 @name           Dark Panda
 @namespace      https://github.com/moritz-hoelting/dark-panda-upb
-@version        1.0.0
-@description    Dark mode for PANDA of the University of Paderborn
+@version        1.1.0
+@description    Dark mode for PANDA and PAUL of the University of Paderborn
 @author         Moritz Hölting
 @homepageURL    https://github.com/moritz-hoelting/dark-panda-upb
 @supportURL     https://github.com/moritz-hoelting/dark-panda-upb
@@ -11,3 +11,8 @@
 
 // Panda
 @import "./src/panda/main.scss";
+
+// Paul
+@import "./src/paul/main.scss";
+// Paul-DSF
+@import "./src/paul/paul-dsf.scss";

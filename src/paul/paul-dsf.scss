@@ -1,0 +1,48 @@
+@import "../variables.scss";
+
+@-moz-document domain("paul-dsf.uni-paderborn.de"), domain("paul-dsf.upb.de") {
+    
+    // Body
+    body {
+        background-color: $background-main !important;
+    }
+
+    // Container
+    .container.body-content {
+        background-color: $background-card;
+
+        // Page Header
+        .page-header {
+            border-bottom: none;
+            background-image: none;
+
+            h1 {
+                color: $accent-blue;
+            }
+        }
+
+        // Panel
+        .panel.panel-default {
+            color: $text-primary;
+            background-color: $background-main;
+            border-color: $background-secondary;
+
+            .panel-heading {
+                background-color: $background-secondary;
+            }
+        }
+    }
+
+    // Button
+    .btn.btn-primary {
+        color: $text-secondary;
+        background-color: $background-card;
+        border-color: $background-card-hover;
+
+        &:hover {
+            color: $text-primary;
+            background-color: $background-card-hover;
+            border-color: $accent-blue;
+        }
+    }
+}

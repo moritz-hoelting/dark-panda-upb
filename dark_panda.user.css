@@ -2,7 +2,7 @@
 /* ==UserStyle==
 @name           Dark Panda
 @namespace      https://github.com/moritz-hoelting/dark-panda-upb
-@version        1.0.0
+@version        1.1.0
 @description    Dark mode for PANDA of the University of Paderborn
 @author         Moritz Hölting
 @homepageURL    https://github.com/moritz-hoelting/dark-panda-upb
@@ -206,6 +206,155 @@
   }
   .path-mod-assign td.earlysubmission, .path-mod-assign td.submissionstatussubmitted, .path-mod-assign div.earlysubmission, .path-mod-assign div.submissionstatussubmitted {
     background-color: rgba(207, 239, 207, 0.6274509804);
+  }
+}
+@-moz-document domain("paul.uni-paderborn.de"), domain("paul.upb.de") {
+  body {
+    color: #e4e6eb;
+    background-color: #18191a;
+  }
+  .nav.depth_2.linkItemContainer {
+    background-color: #18191a;
+  }
+  * {
+    color: #e4e6eb;
+  }
+  #pageHead #pageHeadCenter {
+    background-color: #242526;
+  }
+  #pageHead #pageHeadLeft {
+    height: 100%;
+  }
+  #pageHead #pageHeadLeft a {
+    height: 100%;
+  }
+  #pageHead #pageHeadLeft a #imagePageHeadLeft {
+    content: url("https://upload.wikimedia.org/wikipedia/de/thumb/c/c8/Logo_Uni_Paderborn.svg/828px-Logo_Uni_Paderborn.svg.png?20130216223718");
+    height: 100%;
+    object-fit: contain;
+    padding: 10px;
+    box-sizing: border-box;
+    filter: brightness(1.5);
+  }
+  #pageHead #pageHeadBottom_3 {
+    background-color: #242526;
+    border: none;
+  }
+  #pageContainer {
+    background-color: #18191a;
+  }
+  #pageContent {
+    background-image: none;
+  }
+  #pageContent h1,
+  #pageContent h2,
+  #pageContent h3,
+  #pageContent h4,
+  #pageContent h5,
+  #pageContent h6 {
+    color: #2e66d0;
+  }
+  #pageContent a:link,
+  #pageContent a:link span {
+    color: #c0d1f1;
+  }
+  #pageTopNavi ul.nav li a.depth_1 {
+    padding-top: 55px;
+    background-size: 50px 50px;
+  }
+  #pageTopNavi ul.nav #link000435 a.link000435,
+  #pageTopNavi ul.nav #link000434 a.link000434 {
+    background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!--! Font Awesome Pro 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path fill="darkgray" d="M575.8 255.5c0 18-15 32.1-32 32.1h-32l.7 160.2c0 2.7-.2 5.4-.5 8.1V472c0 22.1-17.9 40-40 40H456c-1.1 0-2.2 0-3.3-.1c-1.4 .1-2.8 .1-4.2 .1H416 392c-22.1 0-40-17.9-40-40V448 384c0-17.7-14.3-32-32-32H256c-17.7 0-32 14.3-32 32v64 24c0 22.1-17.9 40-40 40H160 128.1c-1.5 0-3-.1-4.5-.2c-1.2 .1-2.4 .2-3.6 .2H104c-22.1 0-40-17.9-40-40V360c0-.9 0-1.9 .1-2.8V287.6H32c-18 0-32-14-32-32.1c0-9 3-17 10-24L266.4 8c7-7 15-8 22-8s15 2 21 7L564.8 231.5c8 7 12 15 11 24z"/></svg>');
+  }
+  #pageTopNavi ul.nav #link000442 a.link000442,
+  #pageTopNavi ul.nav #link000448 a.link000448 {
+    background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Pro 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path fill="darkgray" d="M40 48C26.7 48 16 58.7 16 72v48c0 13.3 10.7 24 24 24H88c13.3 0 24-10.7 24-24V72c0-13.3-10.7-24-24-24H40zM192 64c-17.7 0-32 14.3-32 32s14.3 32 32 32H480c17.7 0 32-14.3 32-32s-14.3-32-32-32H192zm0 160c-17.7 0-32 14.3-32 32s14.3 32 32 32H480c17.7 0 32-14.3 32-32s-14.3-32-32-32H192zm0 160c-17.7 0-32 14.3-32 32s14.3 32 32 32H480c17.7 0 32-14.3 32-32s-14.3-32-32-32H192zM16 232v48c0 13.3 10.7 24 24 24H88c13.3 0 24-10.7 24-24V232c0-13.3-10.7-24-24-24H40c-13.3 0-24 10.7-24 24zM40 368c-13.3 0-24 10.7-24 24v48c0 13.3 10.7 24 24 24H88c13.3 0 24-10.7 24-24V392c0-13.3-10.7-24-24-24H40z"/></svg>');
+  }
+  #pageTopNavi ul.nav #link000485 a.link000485 {
+    background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><!--! Font Awesome Pro 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path fill="darkgray" d="M80 160c0-35.3 28.7-64 64-64h32c35.3 0 64 28.7 64 64v3.6c0 21.8-11.1 42.1-29.4 53.8l-42.2 27.1c-25.2 16.2-40.4 44.1-40.4 74V320c0 17.7 14.3 32 32 32s32-14.3 32-32v-1.4c0-8.2 4.2-15.8 11-20.2l42.2-27.1c36.6-23.6 58.8-64.1 58.8-107.7V160c0-70.7-57.3-128-128-128H144C73.3 32 16 89.3 16 160c0 17.7 14.3 32 32 32s32-14.3 32-32zm80 320a40 40 0 1 0 0-80 40 40 0 1 0 0 80z"/></svg>');
+  }
+  #pageTopNavi ul.nav #link000568 a.link000568,
+  #pageTopNavi ul.nav #link000481 a.link000481 {
+    background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512"><!--! Font Awesome Pro 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path fill="darkgray" d="M64 0C28.7 0 0 28.7 0 64V448c0 35.3 28.7 64 64 64H320c35.3 0 64-28.7 64-64V160H256c-17.7 0-32-14.3-32-32V0H64zM256 0V128H384L256 0zM80 64h64c8.8 0 16 7.2 16 16s-7.2 16-16 16H80c-8.8 0-16-7.2-16-16s7.2-16 16-16zm0 64h64c8.8 0 16 7.2 16 16s-7.2 16-16 16H80c-8.8 0-16-7.2-16-16s7.2-16 16-16zm16 96H288c17.7 0 32 14.3 32 32v64c0 17.7-14.3 32-32 32H96c-17.7 0-32-14.3-32-32V256c0-17.7 14.3-32 32-32zm0 32v64H288V256H96zM240 416h64c8.8 0 16 7.2 16 16s-7.2 16-16 16H240c-8.8 0-16-7.2-16-16s7.2-16 16-16z"/></svg>');
+  }
+  #pageTopNavi ul.nav #link000440 a.link000440 {
+    background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Pro 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path fill="darkgray" d="M64 256V160H224v96H64zm0 64H224v96H64V320zm224 96V320H448v96H288zM448 256H288V160H448v96zM64 32C28.7 32 0 60.7 0 96V416c0 35.3 28.7 64 64 64H448c35.3 0 64-28.7 64-64V96c0-35.3-28.7-64-64-64H64z"/></svg>');
+  }
+  #pageTopNavi ul.nav #link000454 a.link000454 {
+    background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"><!--! Font Awesome Pro 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path fill="darkgray" d="M320 32c-8.1 0-16.1 1.4-23.7 4.1L15.8 137.4C6.3 140.9 0 149.9 0 160s6.3 19.1 15.8 22.6l57.9 20.9C57.3 229.3 48 259.8 48 291.9v28.1c0 28.4-10.8 57.7-22.3 80.8c-6.5 13-13.9 25.8-22.5 37.6C0 442.7-.9 448.3 .9 453.4s6 8.9 11.2 10.2l64 16c4.2 1.1 8.7 .3 12.4-2s6.3-6.1 7.1-10.4c8.6-42.8 4.3-81.2-2.1-108.7C90.3 344.3 86 329.8 80 316.5V291.9c0-30.2 10.2-58.7 27.9-81.5c12.9-15.5 29.6-28 49.2-35.7l157-61.7c8.2-3.2 17.5 .8 20.7 9s-.8 17.5-9 20.7l-157 61.7c-12.4 4.9-23.3 12.4-32.2 21.6l159.6 57.6c7.6 2.7 15.6 4.1 23.7 4.1s16.1-1.4 23.7-4.1L624.2 182.6c9.5-3.4 15.8-12.5 15.8-22.6s-6.3-19.1-15.8-22.6L343.7 36.1C336.1 33.4 328.1 32 320 32zM128 408c0 35.3 86 72 192 72s192-36.7 192-72L496.7 262.6 354.5 314c-11.1 4-22.8 6-34.5 6s-23.5-2-34.5-6L143.3 262.6 128 408z"/></svg>');
+  }
+  #pageTopNavi ul.nav #link000477 a.link000477 {
+    background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!--! Font Awesome Pro 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path fill="darkgray" d="M0 64C0 28.7 28.7 0 64 0H224V128c0 17.7 14.3 32 32 32H384V285.7l-86.8 86.8c-10.3 10.3-17.5 23.1-21 37.2l-18.7 74.9c-2.3 9.2-1.8 18.8 1.3 27.5H64c-35.3 0-64-28.7-64-64V64zm384 64H256V0L384 128zM549.8 235.7l14.4 14.4c15.6 15.6 15.6 40.9 0 56.6l-29.4 29.4-71-71 29.4-29.4c15.6-15.6 40.9-15.6 56.6 0zM311.9 417L441.1 287.8l71 71L382.9 487.9c-4.1 4.1-9.2 7-14.9 8.4l-60.1 15c-5.5 1.4-11.2-.2-15.2-4.2s-5.6-9.7-4.2-15.2l15-60.1c1.4-5.6 4.3-10.8 8.4-14.9z"/></svg>');
+  }
+  #pageTopNavi ul.nav li.depth_1 li {
+    background-color: #242526;
+    margin: 0 0 5px 5px;
+  }
+  .img_arrowSubmit {
+    background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Pro 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path fill="darkgray" d="M64 32C28.7 32 0 60.7 0 96V416c0 35.3 28.7 64 64 64H384c35.3 0 64-28.7 64-64V96c0-35.3-28.7-64-64-64H64zM337 209L209 337c-9.4 9.4-24.6 9.4-33.9 0l-64-64c-9.4-9.4-9.4-24.6 0-33.9s24.6-9.4 33.9 0l47 47L303 175c9.4-9.4 24.6-9.4 33.9 0s9.4 24.6 0 33.9z"/></svg>');
+  }
+  .img.img_arrowReload {
+    color: #e4e6eb;
+  }
+  .tbcontrol {
+    background-color: #242526;
+  }
+  #weekTableRoomplan tr th,
+  #weekTableRoomplan tr tb {
+    color: #b0b3b8 !important;
+    background-color: #333 !important;
+  }
+  #weekTableRoomplan tr th a, #weekTableRoomplan tr th.tbsubhead a, #weekTableRoomplan tr th.tbsubhead span, #weekTableRoomplan tr th.tbsubhead *,
+  #weekTableRoomplan tr tb a,
+  #weekTableRoomplan tr tb.tbsubhead a,
+  #weekTableRoomplan tr tb.tbsubhead span,
+  #weekTableRoomplan tr tb.tbsubhead * {
+    color: #b0b3b8 !important;
+  }
+  #weekTableRoomplan tr.tbsubhead * {
+    color: #b0b3b8 !important;
+  }
+  #weekTableRoomplan tr .tbtime11, #weekTableRoomplan tr .tbtime01 {
+    background-color: #242526;
+  }
+  #weekTableRoomplan tr .tbtime12, #weekTableRoomplan tr .tbtime02 {
+    background-color: #3a3b3c;
+  }
+  #weekTableRoomplan .appointment {
+    background-color: #333 !important;
+  }
+}
+@-moz-document domain("paul-dsf.uni-paderborn.de"), domain("paul-dsf.upb.de") {
+  body {
+    background-color: #18191a !important;
+  }
+  .container.body-content {
+    background-color: #242526;
+  }
+  .container.body-content .page-header {
+    border-bottom: none;
+    background-image: none;
+  }
+  .container.body-content .page-header h1 {
+    color: #2e66d0;
+  }
+  .container.body-content .panel.panel-default {
+    color: #e4e6eb;
+    background-color: #18191a;
+    border-color: #333;
+  }
+  .container.body-content .panel.panel-default .panel-heading {
+    background-color: #333;
+  }
+  .btn.btn-primary {
+    color: #b0b3b8;
+    background-color: #242526;
+    border-color: #3a3b3c;
+  }
+  .btn.btn-primary:hover {
+    color: #e4e6eb;
+    background-color: #3a3b3c;
+    border-color: #2e66d0;
   }
 }
 
