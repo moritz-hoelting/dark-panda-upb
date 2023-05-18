@@ -1,0 +1,199 @@
+@charset "UTF-8";
+/* ==UserStyle==
+@name           Dark Panda
+@namespace      github.com/openstyles/stylus
+@version        1.0.0
+@description    Dark mode for UPB Panda
+@author         Moritz Hölting
+==/UserStyle== */
+@-moz-document domain("panda.uni-paderborn.de"), domain("panda.upb.de") {
+  body {
+    background-color: #18191a;
+    color: #c0d1f1;
+  }
+  body#page-my-index {
+    background-color: #18191a !important;
+  }
+  .sideblocks .block,
+  #page-my-index #region-main > div {
+    background-color: #242526;
+  }
+  .bg-white {
+    background-color: #242526 !important;
+  }
+  .calendar_event_course {
+    background-color: rgba(255, 143, 87, 0.3);
+  }
+  .resourcelinkdetails {
+    color: #b0b3b8;
+  }
+  #page-footer {
+    background-color: #0a465a !important;
+  }
+  #page-footer .footer-image {
+    filter: brightness(40%);
+  }
+  nav.navbar .nav-item .nav-link {
+    color: rgba(255, 255, 255, 0.6);
+  }
+  nav.navbar .nav-item .nav-link:hover, nav.navbar .nav-item .nav-link:active {
+    color: rgba(255, 255, 255, 0.9);
+  }
+  nav.navbar.navbar-light .navbar-brand {
+    color: #2e66d0;
+  }
+  nav.navbar #blue {
+    color: #b0b3b8 !important;
+    background-color: #2e66d0 !important;
+  }
+  div#page-navbar li.breadcrumb-item a {
+    color: #2e66d0;
+  }
+  #nav-drawer {
+    background-color: #18191a;
+  }
+  #nav-drawer .list-group-item {
+    color: #e4e6eb;
+    background-color: #242526;
+  }
+  #nav-drawer .list-group-item:hover, #nav-drawer .list-group-item.active {
+    background-color: #3a3b3c;
+  }
+  .pagination .page-link,
+  .pagination .page-link.disabled {
+    background-color: #333;
+    border-color: #1a1a1a;
+  }
+  .pagination .page-link:hover,
+  .pagination .page-link.disabled:hover {
+    color: #909090;
+    background-color: #3a3b3c;
+  }
+  a {
+    color: #2e66d0;
+  }
+  a:hover {
+    color: #2552a6;
+  }
+  a#message-user-button {
+    color: #b0b3b8;
+  }
+  .card {
+    background-color: #242526;
+  }
+  #page-content .generalbox a {
+    color: #2e66d0;
+  }
+  #page-content .generalbox a:hover {
+    color: #2552a6;
+  }
+  #region-main {
+    background-color: #242526;
+  }
+  .btn-secondary {
+    color: #909090;
+    background-color: #333;
+    border-color: #1a1a1a;
+  }
+  .btn-secondary:hover {
+    color: #909090;
+    background-color: #3a3b3c;
+  }
+  .dropdown-menu {
+    color: #e4e6eb;
+    background-color: #242526;
+  }
+  .dropdown-menu a {
+    color: #e4e6eb;
+  }
+  .dropdown-menu .icon {
+    color: #c0d1f1;
+  }
+  .popover-region-container {
+    background-color: #242526;
+  }
+  .popover-region-container .popover-region-footer-container {
+    background-color: #242526;
+  }
+  .message-app {
+    background-color: #242526;
+  }
+  .message-app a.list-group-item {
+    background-color: #303233;
+  }
+  .preferences-container .preference-table {
+    color: #e4e6eb;
+  }
+  .preferences-container .preference-table tr th:nth-child(even),
+  .preferences-container .preference-table tr td:nth-child(even) {
+    background-color: #3a3b3c;
+  }
+  .paged-content-page-container .list-group-item {
+    background-color: #333;
+  }
+  .paged-content-page-container .list-group-item .list-group-item-action {
+    color: #e4e6eb;
+  }
+  .paged-content-page-container .list-group-item .list-group-item-action:hover {
+    background-color: rgba(255, 255, 255, 0.6);
+  }
+  .modal-content {
+    background-color: #242526;
+  }
+  .moodle-dialogue-base .moodle-dialogue-wrap {
+    background-color: #242526;
+  }
+  .moodle-dialogue-base .moodle-dialogue-wrap .moodle-dialogue-hd.yui3-widget-hd {
+    color: #e4e6eb;
+  }
+  .table {
+    color: #b0b3b8;
+  }
+  .generaltable {
+    color: #e4e6eb;
+  }
+  .generaltable tbody tr:hover {
+    color: #b0b3b8;
+  }
+  .que:not(.ddimageortext) img {
+    background-color: rgba(255, 255, 255, 0.4392156863);
+  }
+  .que:not(.ddimageortext) .content .formulation,
+  .que:not(.ddimageortext) .info {
+    color: #e4e6eb;
+    background-color: #333;
+  }
+  .que:not(.ddimageortext).ddwtos .draghome {
+    border-color: #909090;
+  }
+  .que:not(.ddimageortext).ddwtos .group1 {
+    background-color: #333;
+  }
+  .que.ddimageortext {
+    color: black;
+  }
+  .que.ddimageortext .content .formulation,
+  .que.ddimageortext .info {
+    color: #e4e6eb;
+    background-color: #333;
+  }
+  .que.ddimageortext .content .formulation .ddarea,
+  .que.ddimageortext .info .ddarea {
+    color: initial;
+  }
+  .startpage .upbbox {
+    background-color: #242526;
+  }
+  .startpage .upbbox a {
+    background-color: rgba(255, 255, 255, 0.2);
+  }
+  .path-mod-assign td.submissionnotgraded, .path-mod-assign div.submissionnotgraded {
+    color: #e4e6eb;
+    background-color: #242526;
+  }
+  .path-mod-assign td.earlysubmission, .path-mod-assign td.submissionstatussubmitted, .path-mod-assign div.earlysubmission, .path-mod-assign div.submissionstatussubmitted {
+    background-color: rgba(207, 239, 207, 0.6274509804);
+  }
+}
+
+/*# sourceMappingURL=dark_panda.user.css.map */
