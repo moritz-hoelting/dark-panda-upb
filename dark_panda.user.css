@@ -3,8 +3,10 @@
 @name           Dark Panda
 @namespace      https://github.com/moritz-hoelting/dark-panda-upb
 @version        1.0.0
-@description    Dark mode for UPB Panda
+@description    Dark mode for PANDA of the University of Paderborn
 @author         Moritz Hölting
+@homepageURL    https://github.com/moritz-hoelting/dark-panda-upb
+@supportURL     https://github.com/moritz-hoelting/dark-panda-upb
 ==/UserStyle== */
 @-moz-document domain("panda.uni-paderborn.de"), domain("panda.upb.de") {
   body {
