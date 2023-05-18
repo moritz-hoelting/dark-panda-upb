@@ -27,6 +27,9 @@
   .resourcelinkdetails {
     color: #b0b3b8;
   }
+  .forumpost.unread .row.header, .path-course-view .unread, span.unread {
+    background-color: rgba(255, 253, 221, 0.1882352941);
+  }
   #page-footer {
     background-color: #0a465a !important;
   }
@@ -186,6 +189,14 @@
   }
   .startpage .upbbox a {
     background-color: rgba(255, 255, 255, 0.2);
+  }
+  .course-content ul li.section.main {
+    border-color: rgba(176, 179, 184, 0.3);
+  }
+  @media (min-width: 576px) {
+    .region_main_settings_menu_proxy {
+      background-color: #242526;
+    }
   }
   .path-mod-assign td.submissionnotgraded, .path-mod-assign div.submissionnotgraded {
     color: #e4e6eb;
