@@ -35,7 +35,7 @@ $svg-color: darkgray;
                     object-fit: contain;
                     padding: 10px;
                     box-sizing: border-box;
-                    filter: brightness(1.5);
+                    filter: brightness(2.5);
                 }
             }
         }
@@ -43,6 +43,10 @@ $svg-color: darkgray;
         #pageHeadBottom_3 {
             background-color: $background-card;
             border: none;
+
+            a {
+                color: $text-blue;
+            }
         }
     }
 
@@ -75,6 +79,7 @@ $svg-color: darkgray;
         li a.depth_1 {
             padding-top: 55px;
             background-size: 50px 50px;
+            color: $text-blue;
         }
         // Home
         #link000435 a.link000435,
@@ -112,6 +117,10 @@ $svg-color: darkgray;
         li.depth_1 li {
             background-color: $background-card;
             margin: 0 0 5px 5px;
+
+            a {
+                color: $text-blue;
+            }
 
             // &:hover {
             //     background-color: $background-card-hover;
