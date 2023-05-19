@@ -159,6 +159,8 @@ $svg-color: darkgray;
         }
         .appointment {
             background-color: $background-secondary !important;
+            background-image: none;
+            border-color: $text-secondary;
         }
     }
 }

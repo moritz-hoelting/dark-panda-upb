@@ -3,7 +3,7 @@
 @name           Dark Panda
 @namespace      https://github.com/moritz-hoelting/dark-panda-upb
 @version        1.1.0
-@description    Dark mode for PANDA of the University of Paderborn
+@description    Dark mode for PANDA and PAUL of the University of Paderborn
 @author         Moritz Hölting
 @homepageURL    https://github.com/moritz-hoelting/dark-panda-upb
 @supportURL     https://github.com/moritz-hoelting/dark-panda-upb
@@ -322,6 +322,8 @@
   }
   #weekTableRoomplan .appointment {
     background-color: #333 !important;
+    background-image: none;
+    border-color: #b0b3b8;
   }
 }
 @-moz-document domain("paul-dsf.uni-paderborn.de"), domain("paul-dsf.upb.de") {
