@@ -1,4 +1,6 @@
 {
-    "editor.formatOnSave": true,
-    "vetur.format.defaultFormatter.css": "prettier"
+    "[scss]": {
+        "editor.formatOnSave": true,
+    },
+    "vetur.format.defaultFormatter.css": "prettier",
 }
