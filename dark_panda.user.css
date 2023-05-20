@@ -2,11 +2,13 @@
 /* ==UserStyle==
 @name           Dark Panda
 @namespace      https://github.com/moritz-hoelting/dark-panda-upb
-@version        1.1.1
-@description    Dark mode for PANDA and PAUL of the University of Paderborn
+@version        1.2.0
+@description    Dark mode for PANDA and other Services of the University of Paderborn
 @author         Moritz Hölting
 @homepageURL    https://github.com/moritz-hoelting/dark-panda-upb
 @supportURL     https://github.com/moritz-hoelting/dark-panda-upb
+@updateURL      https://github.com/moritz-hoelting/dark-panda-upb/raw/main/dark_panda.user.css
+@license        AGPL-3.0-only
 ==/UserStyle== */
 @-moz-document domain("panda.uni-paderborn.de"), domain("panda.upb.de") {
   body {
@@ -364,6 +366,101 @@
     color: #e4e6eb;
     background-color: #3a3b3c;
     border-color: #2e66d0;
+  }
+}
+@-moz-document domain("serviceportal.uni-paderborn.de"), domain("sp.uni-paderborn.de"), domain("serviceportal.upb.de"), domain("sp.upb.de") {
+  :root {
+    --dark: #e4e6eb;
+  }
+  body.unipb {
+    background-color: #18191a;
+    color: #e4e6eb;
+  }
+  label {
+    color: #b0b3b8;
+  }
+  .text-dark {
+    color: #e4e6eb;
+  }
+  .navbar-classic {
+    background-color: #242526;
+  }
+  .navbar-classic.navbar-light {
+    border-color: #3a3b3c;
+  }
+  .navbar-light .navbar-nav .nav-link,
+  .navbar-light .navbar-nav .nav-underline .tab a,
+  .nav-underline .tab .navbar-light .navbar-nav a {
+    color: #c0d1f1;
+  }
+  .navbar-light .navbar-nav .active > .nav-link {
+    color: #2e66d0;
+  }
+  .portlet-layout .portlet .portlet-content {
+    border-color: #3a3b3c !important;
+  }
+  .portlet-layout .portlet .portlet-title-text {
+    color: #2e66d0;
+  }
+  #p_p_id_com_liferay_journal_content_web_portlet_JournalContentPortlet_INSTANCE_zrg4KHI2WmiO_ .portlet-content,
+  #p_p_id_com_liferay_login_web_portlet_LoginPortlet_ .portlet-content,
+  #p_p_id_com_liferay_journal_content_web_portlet_JournalContentPortlet_INSTANCE_0HPitfhftVKN_ .portlet-content,
+  #p_p_id_com_liferay_journal_content_web_portlet_JournalContentPortlet_INSTANCE_5aENW8vnW5uW_ .portlet-content,
+  #p_p_id_com_liferay_site_navigation_language_web_portlet_SiteNavigationLanguagePortlet_ .portlet-content {
+    background-color: #242526;
+  }
+  #p_p_id_semesterticketportlet_WAR_imtliferayportletsemesterticket_ .portlet-content {
+    background-color: #242526;
+  }
+  .dropdown-menu {
+    color: #e4e6eb;
+    background-color: #242526;
+    border-color: #3a3b3c;
+  }
+  .dropdown-item,
+  .dropdown-menu > li > a,
+  .dropdown-menu .link-list > li > a {
+    color: #e4e6eb;
+  }
+  .dropdown-item:hover,
+  .dropdown-menu > li > a:hover,
+  .dropdown-menu .link-list > li > a:hover {
+    color: #b0b3b8;
+    background-color: #3a3b3c;
+  }
+  .ui-panel .ui-panel-titlebar {
+    background-color: #2e66d0;
+  }
+  .ui-widget-header {
+    border-color: #3a3b3c;
+  }
+  .ui-widget-content {
+    color: #e4e6eb;
+    background-color: #242526;
+  }
+  .contentbox {
+    border-color: rgba(255, 255, 255, 0.1);
+  }
+  .ui-button,
+  button.ui-button.ui-state-default,
+  .ui-button.ui-state-default {
+    color: #2e66d0;
+    background-color: #333;
+    border-color: rgba(255, 255, 255, 0.2);
+  }
+  .ui-button:hover,
+  button.ui-button.ui-state-default:hover,
+  .ui-button.ui-state-default:hover {
+    border-color: rgba(255, 255, 255, 0.4);
+  }
+  .ui-datatable th.ui-state-default,
+  .ui-datatable tfoot td.ui-state-default {
+    color: #b0b3b8;
+    background-color: #333;
+    border-color: #18191a;
+  }
+  .ui-datatable tbody > tr.ui-widget-content {
+    border-color: #18191a;
   }
 }
 

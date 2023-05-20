@@ -1,0 +1,123 @@
+@import "../variables.scss";
+
+@-moz-document domain("serviceportal.uni-paderborn.de"), domain("sp.uni-paderborn.de"), domain("serviceportal.upb.de"), domain("sp.upb.de") {
+    :root {
+        --dark: #{$text-primary};
+    }
+
+    body.unipb {
+        background-color: $background-main;
+        color: $text-primary;
+    }
+
+    // General
+    label {
+        color: $text-secondary;
+    }
+    .text-dark {
+        color: $text-primary;
+    }
+
+    // Navbar
+    .navbar-classic {
+        background-color: $background-card;
+
+        &.navbar-light {
+            border-color: $background-card-hover;
+        }
+    }
+    .navbar-light .navbar-nav .nav-link,
+    .navbar-light .navbar-nav .nav-underline .tab a,
+    .nav-underline .tab .navbar-light .navbar-nav a {
+        color: $text-blue;
+    }
+    .navbar-light .navbar-nav .active > .nav-link {
+        color: $accent-blue;
+    }
+
+    // Portlet
+    .portlet-layout .portlet {
+        .portlet-content {
+            // background-color: $background-card !important;
+            border-color: $background-card-hover !important;
+        }
+        .portlet-title-text {
+            color: $accent-blue;
+        }
+    }
+    // On Start page
+    #p_p_id_com_liferay_journal_content_web_portlet_JournalContentPortlet_INSTANCE_zrg4KHI2WmiO_
+        .portlet-content,
+    #p_p_id_com_liferay_login_web_portlet_LoginPortlet_ .portlet-content,
+    #p_p_id_com_liferay_journal_content_web_portlet_JournalContentPortlet_INSTANCE_0HPitfhftVKN_
+        .portlet-content,
+    #p_p_id_com_liferay_journal_content_web_portlet_JournalContentPortlet_INSTANCE_5aENW8vnW5uW_
+        .portlet-content,
+    #p_p_id_com_liferay_site_navigation_language_web_portlet_SiteNavigationLanguagePortlet_
+        .portlet-content {
+        background-color: $background-card;
+    }
+    // Semesterticket
+    #p_p_id_semesterticketportlet_WAR_imtliferayportletsemesterticket_
+        .portlet-content {
+        background-color: $background-card;
+    }
+
+    // Dropdown
+    .dropdown-menu {
+        color: $text-primary;
+        background-color: $background-card;
+        border-color: $background-card-hover;
+    }
+    .dropdown-item,
+    .dropdown-menu > li > a,
+    .dropdown-menu .link-list > li > a {
+        color: $text-primary;
+
+        &:hover {
+            color: $text-secondary;
+            background-color: $background-card-hover;
+        }
+    }
+
+    // Widget
+    .ui-panel .ui-panel-titlebar {
+        background-color: $accent-blue;
+    }
+    .ui-widget-header {
+        border-color: $background-card-hover;
+    }
+    .ui-widget-content {
+        color: $text-primary;
+        background-color: $background-card;
+    }
+    .contentbox {
+        border-color: rgba(#fff, 0.1);
+    }
+
+    // Button
+    .ui-button,
+    button.ui-button.ui-state-default,
+    .ui-button.ui-state-default {
+        color: $accent-blue;
+        background-color: $background-secondary;
+        border-color: rgba(#fff, 0.2);
+
+        &:hover {
+            border-color: rgba(#fff, 0.4);
+        }
+    }
+
+    // Table
+    .ui-datatable {
+        th.ui-state-default,
+        tfoot td.ui-state-default {
+            color: $text-secondary;
+            background-color: $background-secondary;
+            border-color: $background-main;
+        }
+        tbody > tr.ui-widget-content {
+            border-color: $background-main;
+        }
+    }
+}
