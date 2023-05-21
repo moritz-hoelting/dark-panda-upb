@@ -7,6 +7,7 @@ $svg-color: darkgray;
     body {
         color: $text-primary;
         background-color: $background-main;
+        background-image: none;
     }
     .nav.depth_2.linkItemContainer {
         background-color: $background-main;
@@ -159,10 +160,12 @@ $svg-color: darkgray;
                 color: $text-secondary !important;
             }
 
-            .tbtime11, .tbtime01 {
+            .tbtime11,
+            .tbtime01 {
                 background-color: $background-card;
             }
-            .tbtime12, .tbtime02 {
+            .tbtime12,
+            .tbtime02 {
                 background-color: $background-card-hover;
             }
         }

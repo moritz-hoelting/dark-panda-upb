@@ -2,7 +2,7 @@
 /* ==UserStyle==
 @name           Dark Panda
 @namespace      https://github.com/moritz-hoelting/dark-panda-upb
-@version        1.2.0
+@version        1.2.1
 @description    Dark mode for PANDA and other Services of the University of Paderborn
 @author         Moritz Hölting
 @homepageURL    https://github.com/moritz-hoelting/dark-panda-upb
@@ -214,6 +214,7 @@
   body {
     color: #e4e6eb;
     background-color: #18191a;
+    background-image: none;
   }
   .nav.depth_2.linkItemContainer {
     background-color: #18191a;
@@ -323,10 +324,12 @@
   #weekTableRoomplan tr.tbsubhead * {
     color: #b0b3b8 !important;
   }
-  #weekTableRoomplan tr .tbtime11, #weekTableRoomplan tr .tbtime01 {
+  #weekTableRoomplan tr .tbtime11,
+  #weekTableRoomplan tr .tbtime01 {
     background-color: #242526;
   }
-  #weekTableRoomplan tr .tbtime12, #weekTableRoomplan tr .tbtime02 {
+  #weekTableRoomplan tr .tbtime12,
+  #weekTableRoomplan tr .tbtime02 {
     background-color: #3a3b3c;
   }
   #weekTableRoomplan .appointment {
